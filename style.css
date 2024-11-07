@@ -5,10 +5,17 @@
 }
 body {
     background-color: bisque;
+    font-family: Bai Jamjuree;
+}    
     #container {
         display:flex ;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 4rem;
+        gap: 3rem;
     }
-}
+
+
 footer {
     background-color: black;
     color: white;
@@ -44,5 +51,8 @@ footer p{
         text-align: center;
         height: 100%;
         background-color: var(--card-front-color);
+        /* background-color: aquamarine; */
+        transform-style: preserve-3d;
+        transition: tranform 300ms ease-in-out;
     }
 }
